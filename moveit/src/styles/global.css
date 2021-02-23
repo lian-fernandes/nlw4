@@ -18,25 +18,27 @@
     --blue-twitter: #2aa9e0;
 }
 
-@media(max-width: 1080px) {
+@media (max-width: 1080px) {
     html {
-        font-size:93.75%;
+        font-size: 93.75%;
     }
 }
 
-@media(max-width: 720px) {
+@media (max-width: 720px) {
     html {
         font-size: 87.5%;
     }
 }
-
 
 body {
     background: var(--background);
     color: var(--text);
 }
 
-body, input, textarea, button {
+body,
+input,
+textarea,
+button {
     font: 400 1rem "Inter", sans-serif;
 }
 
@@ -84,7 +86,7 @@ a {
 }
 
 span.current-experience {
-   position: absolute;
-   top: 12px;
-   transform: translatex(-50%);
+    position: absolute;
+    top: 12px;
+    transform: translatex(-50%);
 }
